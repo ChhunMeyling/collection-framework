@@ -1,6 +1,7 @@
 package view;
 
 import model.User;
+
 import java.util.List;
 import java.util.Scanner;
 import java.util.UUID;
@@ -55,7 +56,6 @@ public class UserView {
         System.out.println("UUID: " + user.getUuid());
         System.out.println("Name: " + user.getName());
         System.out.println("Email: " + user.getEmail());
-//        System.out.println("Is Deleted: " + user.isDeleted());
     }
 
     public void displayUsers(List<User> users, int currentPage, int totalPages) {

@@ -4,7 +4,7 @@ import java.util.UUID;
 
 public class User {
     private Long id;
-    private UUID uuid = UUID.randomUUID();;
+    private UUID uuid = UUID.randomUUID();
     private String name;
     private String email;
     private boolean isDeleted;
